@@ -14,6 +14,8 @@
 		35887FDE1B26532E00B93EB6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35887FDC1B26532E00B93EB6 /* LaunchScreen.xib */; };
 		35887FEA1B26532F00B93EB6 /* algorhythmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35887FE91B26532F00B93EB6 /* algorhythmsTests.swift */; };
 		35887FF51B2658F200B93EB6 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35887FF41B2658F200B93EB6 /* PlaylistDetailViewController.swift */; };
+		35887FF71B27716500B93EB6 /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35887FF61B27716500B93EB6 /* MusicLibrary.swift */; };
+		35887FF91B27725B00B93EB6 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35887FF81B27725B00B93EB6 /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		35887FE91B26532F00B93EB6 /* algorhythmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algorhythmsTests.swift; sourceTree = "<group>"; };
 		35887FF31B26547700B93EB6 /* AlgoScratchSpace.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = AlgoScratchSpace.playground; path = ../AlgoScratchSpace.playground; sourceTree = "<group>"; };
 		35887FF41B2658F200B93EB6 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+		35887FF61B27716500B93EB6 /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		35887FF81B27725B00B93EB6 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				35887FD51B26532E00B93EB6 /* PlaylistMasterViewController.swift */,
 				35887FF41B2658F200B93EB6 /* PlaylistDetailViewController.swift */,
 				35887FD71B26532E00B93EB6 /* Main.storyboard */,
+				35887FF61B27716500B93EB6 /* MusicLibrary.swift */,
+				35887FF81B27725B00B93EB6 /* Playlist.swift */,
 				35887FDA1B26532E00B93EB6 /* Images.xcassets */,
 				35887FF31B26547700B93EB6 /* AlgoScratchSpace.playground */,
 				35887FDC1B26532E00B93EB6 /* LaunchScreen.xib */,
@@ -220,6 +226,8 @@
 				35887FF51B2658F200B93EB6 /* PlaylistDetailViewController.swift in Sources */,
 				35887FD61B26532E00B93EB6 /* PlaylistMasterViewController.swift in Sources */,
 				35887FD41B26532E00B93EB6 /* AppDelegate.swift in Sources */,
+				35887FF71B27716500B93EB6 /* MusicLibrary.swift in Sources */,
+				35887FF91B27725B00B93EB6 /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

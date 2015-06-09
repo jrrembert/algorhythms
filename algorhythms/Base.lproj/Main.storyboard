@@ -16,11 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="ICK-YM-ksX">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktj-O7-X9k">
-                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                                <rect key="frame" x="137" y="392" width="46" height="30"/>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                 <state key="normal" title="Button">
-                                    <color key="titleColor" red="0.95294117649999999" green="0.92941176469999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -28,9 +31,12 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="ktj-O7-X9k" secondAttribute="centerY" id="BXF-fw-7uy"/>
+                            <constraint firstAttribute="centerY" secondItem="ICK-YM-ksX" secondAttribute="centerY" id="FZI-pj-PhA"/>
+                            <constraint firstItem="ktj-O7-X9k" firstAttribute="top" secondItem="ICK-YM-ksX" secondAttribute="bottom" constant="8" id="W18-lk-JIA"/>
+                            <constraint firstAttribute="centerY" secondItem="ICK-YM-ksX" secondAttribute="centerY" id="ZwF-9r-lob"/>
+                            <constraint firstAttribute="centerX" secondItem="ICK-YM-ksX" secondAttribute="centerX" id="mVd-PP-3yk"/>
+                            <constraint firstAttribute="centerX" secondItem="ICK-YM-ksX" secondAttribute="centerX" id="vz7-jJ-Hcj"/>
                             <constraint firstAttribute="centerX" secondItem="ktj-O7-X9k" secondAttribute="centerX" id="wqw-oa-a3O"/>
                         </constraints>
                     </view>
@@ -96,6 +102,9 @@
             <point key="canvasLocation" x="245" y="366"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="coffee" width="53" height="107"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
