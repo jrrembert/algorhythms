@@ -10,11 +10,16 @@ import UIKit
 
 class PlaylistMasterViewController: UIViewController {
     @IBOutlet weak var aButton: UIButton!
+    @IBOutlet weak var playlistImageView0: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         aButton.setTitle("Press me!", forState: .Normal)
+        
+        // Set playlist image dynamically on view load
+        let playlist = Playlist(index: 0)
+        playlistImageView0.image = playlist.icon
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,7 +37,7 @@ class PlaylistMasterViewController: UIViewController {
             //Will trigger runtime error if destinationViewController can't be downcast
             let playlistDetailController = segue.destinationViewController as! PlaylistDetailViewController
             
-            playlistDetailController.segueLabelText = "Yay! You pressed the button!"
+            playlistDetailController.playlist = Playlist(index: 0)
         }
     }
 }

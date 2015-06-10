@@ -12,14 +12,16 @@ class PlaylistDetailViewController: UIViewController {
 
 
     @IBOutlet weak var buttonPressLabel: UILabel!
-    var segueLabelText: String = ""
+    var playlist: Playlist?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Change button text based on our overridden prepareForSegue func
-        buttonPressLabel.text = segueLabelText
+        // If playlist is not nil, unwrap playlist title and assign to as button text
+        if playlist != nil {
+            buttonPressLabel.text = playlist!.title
+        }
     }
 
     override func didReceiveMemoryWarning() {
