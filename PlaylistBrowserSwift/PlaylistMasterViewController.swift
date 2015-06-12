@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  PlaylistBrowserSwift
+//  algorhythms
 //
-//  Created by Pasan Premaratne on 1/12/15.
-//  Copyright (c) 2015 Treehouse. All rights reserved.
+//  Created by J. Ryan Rembert on 1/12/15.
+//  Copyright (c) 2015 District Labs. All rights reserved.
 //
 
 import UIKit

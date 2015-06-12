@@ -1,15 +1,15 @@
 //
-//  PlaylistBrowserSwiftTests.swift
-//  PlaylistBrowserSwiftTests
+//  algorhythmsTests.swift
+//  algorhythmsTests
 //
-//  Created by Pasan Premaratne on 1/12/15.
-//  Copyright (c) 2015 Treehouse. All rights reserved.
+//  Created by J. Ryan Rembert on 1/12/15.
+//  Copyright (c) 2015 District Labs. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class PlaylistBrowserSwiftTests: XCTestCase {
+class algorhythmsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
