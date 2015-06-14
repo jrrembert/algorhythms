@@ -12,11 +12,18 @@ class PlaylistMasterViewController: UIViewController {
 
     var playlistsArray: [UIImageView] = []
     @IBOutlet weak var playlistImageView0: UIImageView!
-    
+    @IBOutlet weak var playListImageView1: UIImageView!
+    @IBOutlet weak var playListImageView2: UIImageView!
+    @IBOutlet weak var playListImageView3: UIImageView!
+    @IBOutlet weak var playListImageView4: UIImageView!
+    @IBOutlet weak var playListImageView5: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        playlistsArray.append(playlistImageView0)
+        playlistsArray += [playlistImageView0,
+        playListImageView1, playListImageView2,
+        playListImageView3, playListImageView4,
+        playListImageView5]
         
         for index in 0..<playlistsArray.count {
             let playlist = Playlist(index: index)
@@ -35,8 +42,18 @@ class PlaylistMasterViewController: UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showPlaylistDetailSegue" {
-            let playlistDetailController = segue.destinationViewController as! PlaylistDetailViewController
-            playlistDetailController.playlist = Playlist(index: 0)
+            
+            let playlistImageView = sender!.view as! UIImageView
+            
+            //If element exists return index, else return nil
+            if let index = find(playlistsArray, playlistImageView) {
+                let playlistDetailController = segue.destinationViewController as! PlaylistDetailViewController
+                playlistDetailController.playlist = Playlist(index: index)
+                
+                
+            }
+            
+            
         }
     }
 
