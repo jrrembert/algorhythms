@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		354F546F1B2E27960077641E /* algorhythms-playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "algorhythms-playground.playground"; sourceTree = "<group>"; };
 		971C74971A6424D2001BD772 /* PlaylistBrowserSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistBrowserSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		971C749B1A6424D2001BD772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		971C749C1A6424D2001BD772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -91,6 +92,7 @@
 				971C74A01A6424D2001BD772 /* Main.storyboard */,
 				971C74A31A6424D2001BD772 /* Images.xcassets */,
 				971C74A51A6424D2001BD772 /* LaunchScreen.xib */,
+				354F546F1B2E27960077641E /* algorhythms-playground.playground */,
 				971C749A1A6424D2001BD772 /* Supporting Files */,
 			);
 			path = PlaylistBrowserSwift;
